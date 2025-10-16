@@ -1,0 +1,115 @@
+{
+  "cookies": [
+    {
+      "name": "wp_wpfileupload_bcee46caf8128c4169fb42a56c1b36e7",
+      "value": "ZD71Obw6cOFFadNEyt5Z44fQ93rYZwN3",
+      "domain": "practice.sdetunicorns.com",
+      "path": "/",
+      "expires": 1760772266.521908,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "sbjs_migrations",
+      "value": "1418474375998%3D1",
+      "domain": ".practice.sdetunicorns.com",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "sbjs_current_add",
+      "value": "fd%3D2025-10-16%2007%3A24%3A28%7C%7C%7Cep%3Dhttps%3A%2F%2Fpractice.sdetunicorns.com%2Fmy-account%2F%7C%7C%7Crf%3D%28none%29",
+      "domain": ".practice.sdetunicorns.com",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "sbjs_first_add",
+      "value": "fd%3D2025-10-16%2007%3A24%3A28%7C%7C%7Cep%3Dhttps%3A%2F%2Fpractice.sdetunicorns.com%2Fmy-account%2F%7C%7C%7Crf%3D%28none%29",
+      "domain": ".practice.sdetunicorns.com",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "sbjs_current",
+      "value": "typ%3Dtypein%7C%7C%7Csrc%3D%28direct%29%7C%7C%7Cmdm%3D%28none%29%7C%7C%7Ccmp%3D%28none%29%7C%7C%7Ccnt%3D%28none%29%7C%7C%7Ctrm%3D%28none%29%7C%7C%7Cid%3D%28none%29%7C%7C%7Cplt%3D%28none%29%7C%7C%7Cfmt%3D%28none%29%7C%7C%7Ctct%3D%28none%29",
+      "domain": ".practice.sdetunicorns.com",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "sbjs_first",
+      "value": "typ%3Dtypein%7C%7C%7Csrc%3D%28direct%29%7C%7C%7Cmdm%3D%28none%29%7C%7C%7Ccmp%3D%28none%29%7C%7C%7Ccnt%3D%28none%29%7C%7C%7Ctrm%3D%28none%29%7C%7C%7Cid%3D%28none%29%7C%7C%7Cplt%3D%28none%29%7C%7C%7Cfmt%3D%28none%29%7C%7C%7Ctct%3D%28none%29",
+      "domain": ".practice.sdetunicorns.com",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "sbjs_udata",
+      "value": "vst%3D1%7C%7C%7Cuip%3D%28none%29%7C%7C%7Cuag%3DMozilla%2F5.0%20%28Windows%20NT%2010.0%3B%20Win64%3B%20x64%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20HeadlessChrome%2F140.0.7339.16%20Safari%2F537.36",
+      "domain": ".practice.sdetunicorns.com",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "sbjs_session",
+      "value": "pgs%3D1%7C%7C%7Ccpg%3Dhttps%3A%2F%2Fpractice.sdetunicorns.com%2Fmy-account%2F",
+      "domain": ".practice.sdetunicorns.com",
+      "path": "/",
+      "expires": 1760601268,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "tk_or",
+      "value": "%22%22",
+      "domain": ".sdetunicorns.com",
+      "path": "/",
+      "expires": 1795159468.512007,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "tk_r3d",
+      "value": "%22%22",
+      "domain": ".sdetunicorns.com",
+      "path": "/",
+      "expires": 1760858668,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "tk_lr",
+      "value": "%22%22",
+      "domain": ".sdetunicorns.com",
+      "path": "/",
+      "expires": 1792135468,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    }
+  ],
+  "origins": []
+}
