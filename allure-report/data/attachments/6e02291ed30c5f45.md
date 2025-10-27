@@ -1,0 +1,477 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - link "Skip to content" [ref=e3] [cursor=pointer]:
+      - /url: "#zak-content"
+    - banner [ref=e4]:
+      - generic [ref=e7]:
+        - generic [ref=e9]:
+          - link "Practice E-Commerce Site" [ref=e10] [cursor=pointer]:
+            - /url: https://practice.sdetunicorns.com/
+            - img "Practice E-Commerce Site" [ref=e11] [cursor=pointer]
+          - generic:
+            - paragraph [ref=e12]:
+              - link "Practice E-Commerce Site" [ref=e13] [cursor=pointer]:
+                - /url: https://practice.sdetunicorns.com/
+            - paragraph [ref=e14]: SDET Unicorns
+        - generic [ref=e15]:
+          - navigation [ref=e16]:
+            - list [ref=e17]:
+              - listitem [ref=e18]:
+                - link "Home" [ref=e19] [cursor=pointer]:
+                  - /url: https://practice.sdetunicorns.com/
+              - listitem [ref=e20]:
+                - link "About" [ref=e21] [cursor=pointer]:
+                  - /url: https://practice.sdetunicorns.com/about/
+              - listitem [ref=e22]:
+                - link "Shop" [ref=e23] [cursor=pointer]:
+                  - /url: https://practice.sdetunicorns.com/shop/
+              - listitem [ref=e24]:
+                - link "Blog" [ref=e25] [cursor=pointer]:
+                  - /url: https://practice.sdetunicorns.com/blog/
+              - listitem [ref=e26]:
+                - link "Contact" [ref=e27] [cursor=pointer]:
+                  - /url: https://practice.sdetunicorns.com/contact/
+              - listitem [ref=e28]:
+                - link "My account" [ref=e29] [cursor=pointer]:
+                  - /url: https://practice.sdetunicorns.com/my-account/
+          - generic [ref=e30]:
+            - link [ref=e32] [cursor=pointer]:
+              - /url: "#"
+              - img [ref=e33] [cursor=pointer]
+            - listitem [ref=e36]:
+              - link "9" [ref=e37] [cursor=pointer]:
+                - /url: https://practice.sdetunicorns.com/cart/
+                - img [ref=e38] [cursor=pointer]
+                - generic [ref=e40] [cursor=pointer]: "9"
+          - link "Courses" [ref=e43] [cursor=pointer]:
+            - /url: https://sdetunicorns.com/courses
+    - generic [ref=e48]:
+      - generic [ref=e52]:
+        - generic [ref=e54]:
+          - heading [level=5]
+          - 'heading "Special Sale: Elevate Your SDET Skills! 🔥" [level=3] [ref=e55]':
+            - 'heading "Special Sale: Elevate Your SDET Skills! 🔥" [level=2] [ref=e57]':
+              - generic [ref=e58]:
+                - text: "Special Sale: Elevate Your SDET Skills!"
+                - img "🔥" [ref=e59]
+        - heading "Elevate your career with our special sale! Dive into our extensive SDET courses. Don't miss out – this limited-time offer is your ticket to advancing your skills. Explore our courses and begin your transformative journey now. ⏳" [level=5] [ref=e62]:
+          - text: Elevate your career with our special sale! Dive into our extensive SDET courses.
+          - text: Don't miss out – this limited-time offer is your ticket to advancing your skills. Explore our courses and begin your transformative journey now.
+          - img "⏳" [ref=e63]
+        - link "Learn more" [ref=e67] [cursor=pointer]:
+          - /url: https://sdetunicorns.com/academy
+          - generic [ref=e68] [cursor=pointer]:
+            - generic [ref=e70] [cursor=pointer]: 
+            - generic [ref=e71] [cursor=pointer]: Learn more
+      - generic [ref=e76]:
+        - heading "Think different. Make different." [level=1] [ref=e79]
+        - paragraph [ref=e82]: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed proin eget eu sit nec risus. Sed ut quam integer a nisl amet. Ed ut quam integer a nisl amet
+        - link "get started" [ref=e86] [cursor=pointer]:
+          - /url: "#get-started"
+          - generic [ref=e88] [cursor=pointer]: get started
+      - generic [ref=e96]:
+        - heading "Begin your test automation journey! Check out these courses by clicking on the links below -" [level=2] [ref=e99]
+        - heading "💻 Master API Test Automation using TypeScript" [level=2] [ref=e102]:
+          - link "💻 Master API Test Automation using TypeScript" [ref=e103] [cursor=pointer]:
+            - /url: https://sdetunicorns.com/course/master-api-test-automation-using-typescript/
+            - img "💻" [ref=e104] [cursor=pointer]
+            - text: Master API Test Automation using TypeScript
+        - heading "👩🏻‍💻 Get started with WebdriverIO - Complete Beginner Course" [level=2] [ref=e107]:
+          - link "👩🏻‍💻 Get started with WebdriverIO - Complete Beginner Course" [ref=e108] [cursor=pointer]:
+            - /url: https://sdetunicorns.com/course/webdriverio-complete-beginner-course/
+            - img "👩🏻‍💻" [ref=e109] [cursor=pointer]
+            - text: Get started with WebdriverIO - Complete Beginner Course
+        - heading "👨🏽‍💻 Learn Mobile Automation with Appium 2.0 and WebdriverIO" [level=2] [ref=e112]:
+          - link "👨🏽‍💻 Learn Mobile Automation with Appium 2.0 and WebdriverIO" [ref=e113] [cursor=pointer]:
+            - /url: https://sdetunicorns.com/course/mobile-automation-with-appium-2-0-and-webdriverio/
+            - img "👨🏽‍💻" [ref=e114] [cursor=pointer]
+            - text: Learn Mobile Automation with Appium 2.0 and WebdriverIO
+        - heading "👨🏼‍💻 Learn Web Automation with Playwright Test using Typescript" [level=2] [ref=e117]:
+          - link "👨🏼‍💻 Learn Web Automation with Playwright Test using Typescript" [ref=e118] [cursor=pointer]:
+            - /url: https://sdetunicorns.com/course/playwright-complete-beginner-course/
+            - img "👨🏼‍💻" [ref=e119] [cursor=pointer]
+            - text: Learn Web Automation with Playwright Test using Typescript
+      - generic [ref=e121]:
+        - generic [ref=e126]:
+          - figure [ref=e127]
+          - heading "Research" [level=5] [ref=e129]
+        - generic [ref=e134]:
+          - figure [ref=e135]
+          - heading "Ideas" [level=5] [ref=e137]
+        - generic [ref=e142]:
+          - figure [ref=e143]
+          - heading "Pixel Perfect" [level=5] [ref=e145]
+        - generic [ref=e150]:
+          - figure [ref=e151]
+          - heading "Seo Friendly" [level=5] [ref=e153]
+        - generic [ref=e158]:
+          - figure [ref=e159]
+          - heading "Design" [level=5] [ref=e161]
+        - generic [ref=e166]:
+          - figure [ref=e167]
+          - heading "Support" [level=5] [ref=e169]
+      - generic [ref=e177]:
+        - heading "Zakra Invites You To Build Your Next Site" [level=3] [ref=e180]
+        - generic [ref=e182]:
+          - paragraph [ref=e183]: Lorem ipsum dolor sit amet, consectetur adipiscing elit. At in proin lacus, sed morbi pulvinar malesuada duis.
+          - paragraph [ref=e184]: Viverra pellentesque enim mattis cursus lorem cras est augue. Sit lectus nisl velit rutrum. In quis quis vitae vitae. Sollicitudin rhoncus sit sed odio tristique id. Nisl turpis sed fames sed egestas et. Massa, id platea elit diam scelerisque.
+      - generic [ref=e188]:
+        - heading "Our Awesome Portfolio" [level=3] [ref=e191]
+        - paragraph [ref=e200]: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sapien, sit sed accumsan, viverra sociis ullamcorper aenean fermentum.
+        - generic [ref=e206]:
+          - figure [ref=e207]:
+            - link [ref=e209] [cursor=pointer]:
+              - /url: https://i0.wp.com/practice.sdetunicorns.com/wp-content/uploads/2020/06/portfolio-image-A.jpg?ssl=1
+          - figure [ref=e210]:
+            - link [ref=e212] [cursor=pointer]:
+              - /url: https://i0.wp.com/practice.sdetunicorns.com/wp-content/uploads/2020/06/portfolio-image-E.jpg?ssl=1
+          - figure [ref=e213]:
+            - link [ref=e215] [cursor=pointer]:
+              - /url: https://i0.wp.com/practice.sdetunicorns.com/wp-content/uploads/2020/06/portfolio-image-F.jpg?ssl=1
+          - figure [ref=e216]:
+            - link [ref=e218] [cursor=pointer]:
+              - /url: https://i0.wp.com/practice.sdetunicorns.com/wp-content/uploads/2020/06/portfolio-image-C.jpg?ssl=1
+          - figure [ref=e219]:
+            - link [ref=e221] [cursor=pointer]:
+              - /url: https://i0.wp.com/practice.sdetunicorns.com/wp-content/uploads/2020/06/portfolio-image-H.jpg?ssl=1
+          - figure [ref=e222]:
+            - link [ref=e224] [cursor=pointer]:
+              - /url: https://i0.wp.com/practice.sdetunicorns.com/wp-content/uploads/2020/06/portfolio-image-B.jpg?ssl=1
+          - figure [ref=e225]:
+            - link [ref=e227] [cursor=pointer]:
+              - /url: https://i0.wp.com/practice.sdetunicorns.com/wp-content/uploads/2020/06/portfolio-image-D.jpg?ssl=1
+          - figure [ref=e228]:
+            - link [ref=e230] [cursor=pointer]:
+              - /url: https://i0.wp.com/practice.sdetunicorns.com/wp-content/uploads/2020/06/portfolio-image-G.jpg?ssl=1
+      - generic [ref=e234]:
+        - heading "Plan & Pricing" [level=3] [ref=e237]
+        - paragraph [ref=e246]: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Hendrerit massa condimentum enim, nisl vitae. Ultricies aliquet proin egestas donec viverra turpis luctus gravid
+        - generic [ref=e250]:
+          - generic [ref=e252]:
+            - heading "Silver" [level=4] [ref=e255]
+            - generic [ref=e258]:
+              - generic [ref=e259]: per month
+              - generic [ref=e260]:
+                - generic [ref=e261]: $
+                - generic [ref=e262]: "0"
+            - list [ref=e266]:
+              - listitem [ref=e267]:
+                - generic [ref=e268]: 1 User
+              - listitem [ref=e269]:
+                - generic [ref=e270]: 3 Projects
+              - listitem [ref=e271]:
+                - generic [ref=e272]: Download Prototypes
+              - listitem [ref=e273]:
+                - generic [ref=e274]: 1 Year Repair Coverage
+              - listitem [ref=e275]:
+                - generic [ref=e276]: Monthly Reports
+              - listitem [ref=e277]:
+                - generic [ref=e278]: 7/24 Support
+            - link "Get Started" [ref=e282] [cursor=pointer]:
+              - /url: "#"
+              - generic [ref=e284] [cursor=pointer]: Get Started
+          - generic [ref=e286]:
+            - heading "Gold" [level=4] [ref=e290]
+            - generic [ref=e293]:
+              - generic [ref=e294]: per month
+              - generic [ref=e295]:
+                - generic [ref=e296]: $
+                - generic [ref=e297]: "0"
+            - list [ref=e301]:
+              - listitem [ref=e302]:
+                - generic [ref=e303]: 3 User
+              - listitem [ref=e304]:
+                - generic [ref=e305]: 10 Projects
+              - listitem [ref=e306]:
+                - generic [ref=e307]: Download Prototypes
+              - listitem [ref=e308]:
+                - generic [ref=e309]: 3 Year Repair Coverage
+              - listitem [ref=e310]:
+                - generic [ref=e311]: Weekly Reports
+              - listitem [ref=e312]:
+                - generic [ref=e313]: 7/24 Support
+            - link "Get Started" [ref=e317] [cursor=pointer]:
+              - /url: "#"
+              - generic [ref=e319] [cursor=pointer]: Get Started
+          - generic [ref=e321]:
+            - heading "Platinum" [level=4] [ref=e324]
+            - generic [ref=e327]:
+              - generic [ref=e328]: per month
+              - generic [ref=e329]:
+                - generic [ref=e330]: $
+                - generic [ref=e331]: "0"
+            - list [ref=e335]:
+              - listitem [ref=e336]:
+                - generic [ref=e337]: Unlimited User
+              - listitem [ref=e338]:
+                - generic [ref=e339]: Unlimited Projects
+              - listitem [ref=e340]:
+                - generic [ref=e341]: Download Prototypes
+              - listitem [ref=e342]:
+                - generic [ref=e343]: 5 Repair Coverage
+              - listitem [ref=e344]:
+                - generic [ref=e345]: Daily Reports
+              - listitem [ref=e346]:
+                - generic [ref=e347]: 7/24 Support
+            - link "Get Started" [ref=e351] [cursor=pointer]:
+              - /url: "#"
+              - generic [ref=e353] [cursor=pointer]: Get Started
+      - generic [ref=e357]:
+        - heading "Meet Our Team" [level=3] [ref=e360]
+        - paragraph [ref=e369]: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sapien, sit sed accumsan, viverra sociis ullamcorper aenean fermentum.
+        - generic [ref=e373]:
+          - generic [ref=e378]:
+            - figure [ref=e379]:
+              - link [ref=e380] [cursor=pointer]:
+                - /url: /about
+            - generic [ref=e381]:
+              - heading "Desirae Dias" [level=4] [ref=e382]:
+                - link "Desirae Dias" [ref=e383] [cursor=pointer]:
+                  - /url: /about
+              - paragraph [ref=e384]: CEO
+          - generic [ref=e389]:
+            - figure [ref=e390]:
+              - link [ref=e391] [cursor=pointer]:
+                - /url: /about
+            - generic [ref=e392]:
+              - heading "Madelyn Torff" [level=4] [ref=e393]:
+                - link "Madelyn Torff" [ref=e394] [cursor=pointer]:
+                  - /url: /about
+              - paragraph [ref=e395]: Marketing Head
+          - generic [ref=e400]:
+            - figure [ref=e401]:
+              - link [ref=e402] [cursor=pointer]:
+                - /url: /about
+            - generic [ref=e403]:
+              - heading "Tiana Gouse" [level=4] [ref=e404]:
+                - link "Tiana Gouse" [ref=e405] [cursor=pointer]:
+                  - /url: /about
+              - paragraph [ref=e406]: Project Manager
+          - generic [ref=e411]:
+            - figure [ref=e412]:
+              - link [ref=e413] [cursor=pointer]:
+                - /url: /about
+            - generic [ref=e414]:
+              - heading "Livia Passaquin" [level=4] [ref=e415]:
+                - link "Livia Passaquin" [ref=e416] [cursor=pointer]:
+                  - /url: /about
+              - paragraph [ref=e417]: Director
+      - generic [ref=e421]:
+        - heading "Client Reveiws" [level=3] [ref=e424]
+        - paragraph [ref=e433]: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Hendrerit massa condimentum enim, nisl vitae. Ultricies aliquet proin egestas donec viverra turpis luctus gravid
+        - generic [ref=e437]:
+          - generic [ref=e442]:
+            - generic [ref=e443]: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Hendrerit massa condimentum enim, nisl vitae. Ultricies aliquet proin egestas donec viverra turpis luctus gravida ipsum. Mattis tempus ut egestas habitant dolor massa, id enim. Vitae nec non diam posuere nullam. Neque pharetra bibendum et ornare non risus,
+            - generic [ref=e447]:
+              - generic [ref=e448]: Jessica Alba
+              - generic [ref=e449]: Manager
+          - generic [ref=e455]:
+            - generic [ref=e456]: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Hendrerit massa condimentum enim, nisl vitae. Ultricies aliquet proin egestas donec viverra turpis luctus gravida ipsum. Mattis tempus ut egestas habitant dolor massa, id enim. Vitae nec non diam posuere nullam. Neque pharetra bibendum et ornare non risus,
+            - generic [ref=e460]:
+              - generic [ref=e461]: Will Brand
+              - generic [ref=e462]: Manager
+      - generic [ref=e464]:
+        - generic [ref=e471]:
+          - generic [ref=e472]: Client Trust
+          - generic [ref=e473]:
+            - generic [ref=e475]: "0"
+            - generic [ref=e476]: k
+        - generic [ref=e483]:
+          - generic [ref=e484]: Experts
+          - generic [ref=e487]: "0"
+        - generic [ref=e495]:
+          - generic [ref=e496]: Experience
+          - generic [ref=e499]: "0"
+        - generic [ref=e507]:
+          - generic [ref=e508]: Awards
+          - generic [ref=e511]: "0"
+      - generic [ref=e516]:
+        - heading "Latest Posts & Articles" [level=3] [ref=e519]
+        - paragraph [ref=e528]: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sapien, sit sed accumsan, viverra sociis ullamcorper aenean fermentum.
+        - generic [ref=e532]:
+          - generic [ref=e534]:
+            - generic [ref=e537]:
+              - figure [ref=e538]:
+                - link [ref=e539] [cursor=pointer]:
+                  - /url: https://zakrademos.com/agency/2020/06/19/successful-marketing-ads-for-your-business/
+              - generic [ref=e540]:
+                - heading "Successful Marketing Ads for Your Business" [level=4] [ref=e541]:
+                  - link "Successful Marketing Ads for Your Business" [ref=e542] [cursor=pointer]:
+                    - /url: https://zakrademos.com/agency/2020/06/19/successful-marketing-ads-for-your-business/
+                - paragraph [ref=e543]: Lorem ipsum dolor sit amet, Tetur adipiscing elit. Atempor scelerisque olor sit mauris.
+            - link "Read more" [ref=e547] [cursor=pointer]:
+              - /url: https://zakrademos.com/agency/2020/06/19/successful-marketing-ads-for-your-business/
+              - generic [ref=e549] [cursor=pointer]: Read more
+          - generic [ref=e551]:
+            - generic [ref=e554]:
+              - figure [ref=e555]:
+                - link [ref=e556] [cursor=pointer]:
+                  - /url: https://zakrademos.com/agency/2020/06/19/lets-building-your-business-from-scratch/
+              - generic [ref=e557]:
+                - heading "Let’s Building Your Business from Scratch" [level=4] [ref=e558]:
+                  - link "Let’s Building Your Business from Scratch" [ref=e559] [cursor=pointer]:
+                    - /url: https://zakrademos.com/agency/2020/06/19/lets-building-your-business-from-scratch/
+                - paragraph [ref=e560]: Orem ipsum dolor sit amet, siy dffee consectetur adipiscing elit. Massa iaculis sem aliquet neque.
+            - link "Read more" [ref=e564] [cursor=pointer]:
+              - /url: https://zakrademos.com/agency/2020/06/19/lets-building-your-business-from-scratch/
+              - generic [ref=e566] [cursor=pointer]: Read more
+          - generic [ref=e568]:
+            - generic [ref=e571]:
+              - figure [ref=e572]:
+                - link [ref=e573] [cursor=pointer]:
+                  - /url: https://zakrademos.com/agency/2020/06/19/the-best-place-to-invest-your-money/
+              - generic [ref=e574]:
+                - heading "The Best Place to Invest Your Money" [level=4] [ref=e575]:
+                  - link "The Best Place to Invest Your Money" [ref=e576] [cursor=pointer]:
+                    - /url: https://zakrademos.com/agency/2020/06/19/the-best-place-to-invest-your-money/
+                - paragraph [ref=e577]: Rem ipsum dolor sit amet, Nem consectetur adipiscing elit. A tempor scelerisque mauris.
+            - link "Read more" [ref=e581] [cursor=pointer]:
+              - /url: https://zakrademos.com/agency/2020/06/19/the-best-place-to-invest-your-money/
+              - generic [ref=e583] [cursor=pointer]: Read more
+          - generic [ref=e585]:
+            - generic [ref=e588]:
+              - figure [ref=e589]:
+                - link [ref=e590] [cursor=pointer]:
+                  - /url: https://zakrademos.com/agency/2020/06/18/the-big-seminar-for-your-right-investment/
+              - generic [ref=e591]:
+                - heading "The Big Seminar for Your Right Investment" [level=4] [ref=e592]:
+                  - link "The Big Seminar for Your Right Investment" [ref=e593] [cursor=pointer]:
+                    - /url: https://zakrademos.com/agency/2020/06/18/the-big-seminar-for-your-right-investment/
+                - paragraph [ref=e594]: Rem ipsum dolor sit amet, Nem consectetur adipiscing elit. A tempor scelerisque mauris.
+            - link "Read more" [ref=e598] [cursor=pointer]:
+              - /url: https://zakrademos.com/agency/2020/06/18/the-big-seminar-for-your-right-investment/
+              - generic [ref=e600] [cursor=pointer]: Read more
+      - generic [ref=e602]:
+        - generic [ref=e604]:
+          - heading "Have Any Questions?" [level=3] [ref=e607]
+          - paragraph [ref=e610]: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Hendrerit massa condimentum enim, nisl vitae. Ultricies aliquet proin egestas donec viverra turpis luctus gravida ipsum.
+        - link "Contact us" [ref=e616] [cursor=pointer]:
+          - /url: http://practice.sdetunicorns.com/contact
+          - generic [ref=e618] [cursor=pointer]: Contact us
+      - region "Image Carousel" [ref=e625]:
+        - generic [ref=e626]:
+          - group [ref=e627]:
+            - figure [ref=e628]:
+              - img [ref=e629]
+          - group [ref=e630]:
+            - figure [ref=e631]:
+              - img [ref=e632]
+          - group [ref=e633]:
+            - figure [ref=e634]:
+              - img [ref=e635]
+          - group [ref=e636]:
+            - figure [ref=e637]:
+              - img [ref=e638]
+          - group [ref=e639]:
+            - figure [ref=e640]:
+              - img [ref=e641]
+          - group [ref=e642]:
+            - figure [ref=e643]:
+              - img [ref=e644]
+          - group "1 / 6" [ref=e645]:
+            - figure [ref=e646]:
+              - img "logo-sephora-a" [ref=e647]
+          - group "2 / 6" [ref=e648]:
+            - figure [ref=e649]:
+              - img "logo-coast-b" [ref=e650]
+          - group "3 / 6" [ref=e651]:
+            - figure [ref=e652]:
+              - img "logo-warehouse-c" [ref=e653]
+          - group "4 / 6" [ref=e654]:
+            - figure [ref=e655]:
+              - img "logo-wegmans-d" [ref=e656]
+          - group "5 / 6" [ref=e657]:
+            - figure [ref=e658]:
+              - img "logo-neuhaus-e" [ref=e659]
+          - group "6 / 6" [ref=e660]:
+            - figure [ref=e661]:
+              - img "logo-kiehls-f" [ref=e662]
+          - group [ref=e663]:
+            - figure [ref=e664]:
+              - img [ref=e665]
+          - group [ref=e666]:
+            - figure [ref=e667]:
+              - img [ref=e668]
+          - group [ref=e669]:
+            - figure [ref=e670]:
+              - img [ref=e671]
+          - group [ref=e672]:
+            - figure [ref=e673]:
+              - img [ref=e674]
+          - group [ref=e675]:
+            - figure [ref=e676]:
+              - img [ref=e677]
+          - group [ref=e678]:
+            - figure [ref=e679]:
+              - img [ref=e680]
+      - list [ref=e687]:
+        - listitem [ref=e688]:
+          - link [ref=e689] [cursor=pointer]:
+            - /url: "#"
+            - generic [ref=e691] [cursor=pointer]: 
+        - listitem [ref=e692]:
+          - link [ref=e693] [cursor=pointer]:
+            - /url: "#"
+            - generic [ref=e695] [cursor=pointer]: 
+        - listitem [ref=e696]:
+          - link [ref=e697] [cursor=pointer]:
+            - /url: "#"
+            - generic [ref=e699] [cursor=pointer]: 
+        - listitem [ref=e700]:
+          - link [ref=e701] [cursor=pointer]:
+            - /url: "#"
+            - generic [ref=e703] [cursor=pointer]: 
+        - listitem [ref=e704]:
+          - link [ref=e705] [cursor=pointer]:
+            - /url: "#"
+            - generic [ref=e707] [cursor=pointer]: 
+    - contentinfo [ref=e708]:
+      - generic [ref=e711]:
+        - paragraph [ref=e716]: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Elit feugiat sit purus varius. Non in turpis tincidunt nulla. Condimentum ultrices nunc odio ante.
+        - generic [ref=e718]:
+          - heading "Quick Links" [level=2] [ref=e719]
+          - list [ref=e721]:
+            - listitem [ref=e722]:
+              - link "Home" [ref=e723] [cursor=pointer]:
+                - /url: https://practice.sdetunicorns.com/
+            - listitem [ref=e724]:
+              - link "About" [ref=e725] [cursor=pointer]:
+                - /url: https://practice.sdetunicorns.com/about/
+            - listitem [ref=e726]:
+              - link "Blog" [ref=e727] [cursor=pointer]:
+                - /url: https://practice.sdetunicorns.com/blog/
+            - listitem [ref=e728]:
+              - link "Contact" [ref=e729] [cursor=pointer]:
+                - /url: https://practice.sdetunicorns.com/contact/
+            - listitem [ref=e730]:
+              - link "Support Form" [ref=e731] [cursor=pointer]:
+                - /url: https://practice.sdetunicorns.com/support-form/
+        - generic [ref=e733]:
+          - heading "Latest Posts" [level=2] [ref=e734]
+          - list [ref=e735]:
+            - listitem [ref=e736]:
+              - link "IFrame Sample" [ref=e737] [cursor=pointer]:
+                - /url: https://practice.sdetunicorns.com/iframe-sample/
+            - listitem [ref=e738]:
+              - link "Successful Marketing Ads for Your Business" [ref=e739] [cursor=pointer]:
+                - /url: https://practice.sdetunicorns.com/successful-marketing-ads-for-your-business/
+            - listitem [ref=e740]:
+              - link "Let’s Building Your Business from Scratch" [ref=e741] [cursor=pointer]:
+                - /url: https://practice.sdetunicorns.com/lets-building-your-business-from-scratch/
+        - generic [ref=e743]:
+          - heading "Contact Us" [level=2] [ref=e744]
+          - generic [ref=e745]:
+            - paragraph [ref=e746]: "Ph. : +(123) 456-7890"
+            - paragraph [ref=e747]: "Email : first.last@demos.com"
+            - paragraph [ref=e748]: "Loc : Moon Street , 446 Jupiter"
+            - paragraph [ref=e749]: "Open : 9AM – 6PM (Mon – Fri)"
+      - paragraph [ref=e754]:
+        - text: Copyright © 2020
+        - link "SDET Unicorns" [ref=e755] [cursor=pointer]:
+          - /url: https://sdetunicorns.com/
+  - generic [ref=e756]: desktop
+  - status [ref=e757]
+```

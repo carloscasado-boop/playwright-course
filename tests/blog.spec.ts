@@ -1,8 +1,8 @@
-import{test, expect} from '@playwright/test';
+import { test, expect } from '@playwright/test';
 
 test.describe('Blog', () => {
 
-   test('should get all recent posts and verify count is 5', async ({ page }) => {
+  test('should get all recent posts and verify count is 5', async ({ page }) => {
     await page.goto('https://practice.sdetunicorns.com/blog/');
 
     // Localizar la sección "Recent Posts"
@@ -19,5 +19,30 @@ test.describe('Blog', () => {
 
       expect(((await posts[i].innerText())).length).toBeGreaterThanOrEqual(10);
     }
-  });  
+  });
+
+  test('Blog: la búsqueda en el sidebar devuelve resultados', async ({ page }) => {
+    await page.goto('/blog/');
+
+    const sidebar = page.locator('aside').first();
+    await sidebar.scrollIntoViewIfNeeded();
+
+    const searchInput = sidebar.locator('input[type="search"]').first();
+    await searchInput.waitFor({ state: 'visible' });
+
+    await searchInput.fill('watch');
+    await searchInput.press('Enter');
+
+    await page.waitForLoadState('domcontentloaded');
+    await expect(page).toHaveURL(/[\?&]s=watch/i);
+
+    // Verifica que hay resultados y que alguno contiene "watch" en el título
+    const results = page.locator('article .entry-title a');
+    const count = await results.count();
+    expect(count).toBeGreaterThan(0);
+
+    const titles = await results.allInnerTexts();
+    expect(titles.some(t => /watch/i.test(t))).toBe(true);
+  });
+
 })

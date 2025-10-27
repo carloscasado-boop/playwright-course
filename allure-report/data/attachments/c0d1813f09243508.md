@@ -1,0 +1,293 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - link "Skip to content" [ref=e3] [cursor=pointer]:
+      - /url: "#zak-content"
+    - banner [ref=e4]:
+      - generic [ref=e7]:
+        - generic [ref=e9]:
+          - link "Practice E-Commerce Site" [ref=e10] [cursor=pointer]:
+            - /url: https://practice.sdetunicorns.com/
+            - img "Practice E-Commerce Site" [ref=e11] [cursor=pointer]
+          - generic:
+            - paragraph [ref=e12]:
+              - link "Practice E-Commerce Site" [ref=e13] [cursor=pointer]:
+                - /url: https://practice.sdetunicorns.com/
+            - paragraph [ref=e14]: SDET Unicorns
+        - generic [ref=e15]:
+          - navigation [ref=e16]:
+            - list [ref=e17]:
+              - listitem [ref=e18]:
+                - link "Home" [ref=e19] [cursor=pointer]:
+                  - /url: https://practice.sdetunicorns.com/
+              - listitem [ref=e20]:
+                - link "About" [ref=e21] [cursor=pointer]:
+                  - /url: https://practice.sdetunicorns.com/about/
+              - listitem [ref=e22]:
+                - link "Shop" [ref=e23] [cursor=pointer]:
+                  - /url: https://practice.sdetunicorns.com/shop/
+              - listitem [ref=e24]:
+                - link "Blog" [ref=e25] [cursor=pointer]:
+                  - /url: https://practice.sdetunicorns.com/blog/
+              - listitem [ref=e26]:
+                - link "Contact" [ref=e27] [cursor=pointer]:
+                  - /url: https://practice.sdetunicorns.com/contact/
+              - listitem [ref=e28]:
+                - link "My account" [ref=e29] [cursor=pointer]:
+                  - /url: https://practice.sdetunicorns.com/my-account/
+          - generic [ref=e30]:
+            - link [ref=e32] [cursor=pointer]:
+              - /url: "#"
+              - img [ref=e33] [cursor=pointer]
+            - listitem [ref=e36]:
+              - link "9" [ref=e37] [cursor=pointer]:
+                - /url: https://practice.sdetunicorns.com/cart/
+                - img [ref=e38] [cursor=pointer]
+                - generic [ref=e40] [cursor=pointer]: "9"
+          - link "Courses" [ref=e43] [cursor=pointer]:
+            - /url: https://sdetunicorns.com/courses
+    - generic [ref=e46]:
+      - heading "Cart" [level=1] [ref=e48]
+      - navigation "Breadcrumbs" [ref=e50]:
+        - list [ref=e51]:
+          - listitem [ref=e52]:
+            - link "Home" [ref=e53] [cursor=pointer]:
+              - /url: https://practice.sdetunicorns.com/
+              - generic [ref=e54] [cursor=pointer]: Home
+            - text: /
+          - listitem [ref=e55]:
+            - generic [ref=e56]: Cart
+    - generic [ref=e59]:
+      - main [ref=e60]:
+        - article [ref=e61]:
+          - generic [ref=e63]:
+            - generic [ref=e64]:
+              - table [ref=e66]:
+                - rowgroup [ref=e67]:
+                  - row "Upload files" [ref=e68]:
+                    - cell "Upload files" [ref=e69]:
+                      - generic [ref=e71]: Upload files
+              - table [ref=e73]:
+                - rowgroup [ref=e74]:
+                  - row "Select File Upload File" [ref=e75]:
+                    - cell [ref=e76]:
+                      - textbox [ref=e78]
+                    - cell "Select File" [ref=e79]:
+                      - button "Select File" [ref=e82] [cursor=pointer]
+                    - cell "Upload File" [ref=e83]:
+                      - button "Upload File" [ref=e85] [cursor=pointer]
+              - table [ref=e87]:
+                - rowgroup [ref=e88]:
+                  - row "File test.webp not uploaded" [ref=e89]:
+                    - cell "File test.webp not uploaded" [ref=e90]:
+                      - table [ref=e92]:
+                        - rowgroup [ref=e93]:
+                          - row "File test.webp not uploaded" [ref=e94]:
+                            - cell "File test.webp not uploaded" [ref=e95]:
+                              - generic [ref=e97]: File test.webp not uploaded
+                            - cell [ref=e98]
+            - generic [ref=e100]:
+              - table [ref=e102]:
+                - rowgroup [ref=e103]:
+                  - row "Remove item Thumbnail image Product Price Quantity Subtotal" [ref=e104]:
+                    - cell "Remove item" [ref=e105]:
+                      - generic [ref=e106]: Remove item
+                    - cell "Thumbnail image" [ref=e107]:
+                      - generic [ref=e108]: Thumbnail image
+                    - columnheader "Product" [ref=e109]
+                    - columnheader "Price" [ref=e110]
+                    - columnheader "Quantity" [ref=e111]
+                    - columnheader "Subtotal" [ref=e112]
+                - rowgroup [ref=e113]:
+                  - row "Remove Branded Converse from cart Branded Converse Branded Converse $150.00 - Branded Converse quantity 7 + $1,050.00" [ref=e114]:
+                    - cell "Remove Branded Converse from cart" [ref=e115]:
+                      - button "Remove Branded Converse from cart" [ref=e116] [cursor=pointer]: ×
+                    - cell "Branded Converse" [ref=e117]:
+                      - link "Branded Converse":
+                        - /url: https://practice.sdetunicorns.com/product/branded-converse/
+                        - img "Branded Converse"
+                    - rowheader "Branded Converse" [ref=e118]:
+                      - link "Branded Converse" [ref=e119] [cursor=pointer]:
+                        - /url: https://practice.sdetunicorns.com/product/branded-converse/
+                    - cell "$150.00" [ref=e120]:
+                      - generic [ref=e122]:
+                        - generic [ref=e123]: $
+                        - text: "150.00"
+                    - cell "- Branded Converse quantity 7 +" [ref=e124]:
+                      - generic [ref=e125]:
+                        - button "-" [ref=e126] [cursor=pointer]
+                        - generic [ref=e127]: Branded Converse quantity
+                        - spinbutton "Product quantity" [ref=e128]: "7"
+                        - button "+" [ref=e129] [cursor=pointer]
+                    - cell "$1,050.00" [ref=e130]:
+                      - generic [ref=e132]:
+                        - generic [ref=e133]: $
+                        - text: 1,050.00
+                  - row "Remove Canon Antique Camera from cart Canon Antique Camera Canon Antique Camera $400.00 - Canon Antique Camera quantity 2 + $800.00" [ref=e134]:
+                    - cell "Remove Canon Antique Camera from cart" [ref=e135]:
+                      - button "Remove Canon Antique Camera from cart" [ref=e136] [cursor=pointer]: ×
+                    - cell "Canon Antique Camera" [ref=e137]:
+                      - link "Canon Antique Camera":
+                        - /url: https://practice.sdetunicorns.com/product/canon-antique-camera/
+                        - img "Canon Antique Camera"
+                    - rowheader "Canon Antique Camera" [ref=e138]:
+                      - link "Canon Antique Camera" [ref=e139] [cursor=pointer]:
+                        - /url: https://practice.sdetunicorns.com/product/canon-antique-camera/
+                    - cell "$400.00" [ref=e140]:
+                      - generic [ref=e142]:
+                        - generic [ref=e143]: $
+                        - text: "400.00"
+                    - cell "- Canon Antique Camera quantity 2 +" [ref=e144]:
+                      - generic [ref=e145]:
+                        - button "-" [ref=e146] [cursor=pointer]
+                        - generic [ref=e147]: Canon Antique Camera quantity
+                        - spinbutton "Product quantity" [ref=e148]: "2"
+                        - button "+" [ref=e149] [cursor=pointer]
+                    - cell "$800.00" [ref=e150]:
+                      - generic [ref=e152]:
+                        - generic [ref=e153]: $
+                        - text: "800.00"
+                  - 'row "Coupon: Apply coupon Update cart" [ref=e154]':
+                    - 'cell "Coupon: Apply coupon Update cart" [ref=e155]':
+                      - generic [ref=e156]:
+                        - generic [ref=e157]: "Coupon:"
+                        - textbox "Coupon:" [ref=e158]
+                        - button "Apply coupon" [ref=e159] [cursor=pointer]
+                      - button "Update cart" [disabled] [ref=e160]
+              - generic [ref=e162]:
+                - heading "Cart totals" [level=2] [ref=e163]
+                - table [ref=e164]:
+                  - rowgroup [ref=e165]:
+                    - row "Subtotal $1,850.00" [ref=e166]:
+                      - cell "Subtotal" [ref=e167]
+                      - cell "$1,850.00" [ref=e168]:
+                        - generic [ref=e170]:
+                          - generic [ref=e171]: $
+                          - text: 1,850.00
+                    - row "Total $1,850.00" [ref=e172]:
+                      - cell "Total" [ref=e173]
+                      - cell "$1,850.00" [ref=e174]:
+                        - strong [ref=e175]:
+                          - generic [ref=e177]:
+                            - generic [ref=e178]: $
+                            - text: 1,850.00
+                - link "Proceed to checkout" [ref=e180] [cursor=pointer]:
+                  - /url: https://practice.sdetunicorns.com/checkout/
+      - complementary [ref=e181]:
+        - search [ref=e183]:
+          - generic [ref=e184]: "Search for:"
+          - searchbox "Search for:" [ref=e185]
+          - button "Search" [ref=e186] [cursor=pointer]
+        - generic [ref=e187]:
+          - heading "Products" [level=2] [ref=e188]
+          - list [ref=e189]:
+            - listitem [ref=e190]:
+              - link "Zurich Watch Zurich Watch" [ref=e191] [cursor=pointer]:
+                - /url: https://practice.sdetunicorns.com/product/zurich-watch/
+                - img "Zurich Watch" [ref=e192] [cursor=pointer]
+                - generic [ref=e193] [cursor=pointer]: Zurich Watch
+              - generic [ref=e195]:
+                - generic [ref=e196]: $
+                - text: "200.00"
+            - listitem [ref=e197]:
+              - link "Watch Watch" [ref=e198] [cursor=pointer]:
+                - /url: https://practice.sdetunicorns.com/product/watch/
+                - img "Watch" [ref=e199] [cursor=pointer]
+                - generic [ref=e200] [cursor=pointer]: Watch
+              - generic [ref=e202]:
+                - generic [ref=e203]: $
+                - text: "50.00"
+            - listitem [ref=e204]:
+              - link "Converse Converse" [ref=e205] [cursor=pointer]:
+                - /url: https://practice.sdetunicorns.com/product/converse/
+                - img "Converse" [ref=e206] [cursor=pointer]
+                - generic [ref=e207] [cursor=pointer]: Converse
+              - generic [ref=e209]:
+                - generic [ref=e210]: $
+                - text: "120.00"
+            - listitem [ref=e211]:
+              - link "Toys Toys" [ref=e212] [cursor=pointer]:
+                - /url: https://practice.sdetunicorns.com/product/toys/
+                - img "Toys" [ref=e213] [cursor=pointer]
+                - generic [ref=e214] [cursor=pointer]: Toys
+              - generic [ref=e216]:
+                - generic [ref=e217]: $
+                - text: "50.00"
+            - listitem [ref=e218]:
+              - link "Canon Antique Camera Canon Antique Camera" [ref=e219] [cursor=pointer]:
+                - /url: https://practice.sdetunicorns.com/product/canon-antique-camera/
+                - img "Canon Antique Camera" [ref=e220] [cursor=pointer]
+                - generic [ref=e221] [cursor=pointer]: Canon Antique Camera
+              - deletion [ref=e222]:
+                - generic [ref=e224]:
+                  - generic [ref=e225]: $
+                  - text: "500.00"
+              - generic [ref=e226]: "Original price was: $500.00."
+              - insertion [ref=e227]:
+                - generic [ref=e229]:
+                  - generic [ref=e230]: $
+                  - text: "400.00"
+              - generic [ref=e231]: "Current price is: $400.00."
+        - generic [ref=e232]:
+          - heading "Product categories" [level=2] [ref=e233]
+          - list [ref=e234]:
+            - listitem [ref=e235]:
+              - link "Clothes" [ref=e236] [cursor=pointer]:
+                - /url: https://practice.sdetunicorns.com/product-category/clothes/
+            - listitem [ref=e237]:
+              - link "Shoes" [ref=e238] [cursor=pointer]:
+                - /url: https://practice.sdetunicorns.com/product-category/shoes/
+            - listitem [ref=e239]:
+              - link "Uncategorized" [ref=e240] [cursor=pointer]:
+                - /url: https://practice.sdetunicorns.com/product-category/uncategorized/
+            - listitem [ref=e241]:
+              - link "Watch" [ref=e242] [cursor=pointer]:
+                - /url: https://practice.sdetunicorns.com/product-category/watch/
+    - contentinfo [ref=e243]:
+      - generic [ref=e246]:
+        - paragraph [ref=e251]: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Elit feugiat sit purus varius. Non in turpis tincidunt nulla. Condimentum ultrices nunc odio ante.
+        - generic [ref=e253]:
+          - heading "Quick Links" [level=2] [ref=e254]
+          - list [ref=e256]:
+            - listitem [ref=e257]:
+              - link "Home" [ref=e258] [cursor=pointer]:
+                - /url: https://practice.sdetunicorns.com/
+            - listitem [ref=e259]:
+              - link "About" [ref=e260] [cursor=pointer]:
+                - /url: https://practice.sdetunicorns.com/about/
+            - listitem [ref=e261]:
+              - link "Blog" [ref=e262] [cursor=pointer]:
+                - /url: https://practice.sdetunicorns.com/blog/
+            - listitem [ref=e263]:
+              - link "Contact" [ref=e264] [cursor=pointer]:
+                - /url: https://practice.sdetunicorns.com/contact/
+            - listitem [ref=e265]:
+              - link "Support Form" [ref=e266] [cursor=pointer]:
+                - /url: https://practice.sdetunicorns.com/support-form/
+        - generic [ref=e268]:
+          - heading "Latest Posts" [level=2] [ref=e269]
+          - list [ref=e270]:
+            - listitem [ref=e271]:
+              - link "IFrame Sample" [ref=e272] [cursor=pointer]:
+                - /url: https://practice.sdetunicorns.com/iframe-sample/
+            - listitem [ref=e273]:
+              - link "Successful Marketing Ads for Your Business" [ref=e274] [cursor=pointer]:
+                - /url: https://practice.sdetunicorns.com/successful-marketing-ads-for-your-business/
+            - listitem [ref=e275]:
+              - link "Let’s Building Your Business from Scratch" [ref=e276] [cursor=pointer]:
+                - /url: https://practice.sdetunicorns.com/lets-building-your-business-from-scratch/
+        - generic [ref=e278]:
+          - heading "Contact Us" [level=2] [ref=e279]
+          - generic [ref=e280]:
+            - paragraph [ref=e281]: "Ph. : +(123) 456-7890"
+            - paragraph [ref=e282]: "Email : first.last@demos.com"
+            - paragraph [ref=e283]: "Loc : Moon Street , 446 Jupiter"
+            - paragraph [ref=e284]: "Open : 9AM – 6PM (Mon – Fri)"
+      - paragraph [ref=e289]:
+        - text: Copyright © 2020
+        - link "SDET Unicorns" [ref=e290] [cursor=pointer]:
+          - /url: https://sdetunicorns.com/
+  - status [ref=e291]
+```

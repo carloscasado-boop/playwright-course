@@ -8,6 +8,7 @@ class ContactPage {
   messageTextArea: Locator;
   submitBtn: Locator;
   successTxt: Locator;
+  //contactText: Promise<string[]>;
 
   constructor(page: Page) {
     this.page = page;
@@ -17,6 +18,7 @@ class ContactPage {
     this.messageTextArea = page.locator('.contact-message textarea')
     this.submitBtn = page.locator('button[type=submit]')
     this.successTxt = page.locator('div[role="alert"]')
+    //this.contactText =  page.locator('footer p').allTextContents();
   }
 
   async navigate() {

@@ -1,0 +1,162 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - link "Skip to content" [ref=e3] [cursor=pointer]:
+      - /url: "#zak-content"
+    - banner [ref=e4]:
+      - generic [ref=e7]:
+        - generic [ref=e9]:
+          - link "Practice E-Commerce Site" [ref=e10] [cursor=pointer]:
+            - /url: https://practice.sdetunicorns.com/
+            - img "Practice E-Commerce Site" [ref=e11] [cursor=pointer]
+          - generic:
+            - paragraph [ref=e12]:
+              - link "Practice E-Commerce Site" [ref=e13] [cursor=pointer]:
+                - /url: https://practice.sdetunicorns.com/
+            - paragraph [ref=e14]: SDET Unicorns
+        - generic [ref=e15]:
+          - navigation [ref=e16]:
+            - list [ref=e17]:
+              - listitem [ref=e18]:
+                - link "Home" [ref=e19] [cursor=pointer]:
+                  - /url: https://practice.sdetunicorns.com/
+              - listitem [ref=e20]:
+                - link "About" [ref=e21] [cursor=pointer]:
+                  - /url: https://practice.sdetunicorns.com/about/
+              - listitem [ref=e22]:
+                - link "Shop" [ref=e23] [cursor=pointer]:
+                  - /url: https://practice.sdetunicorns.com/shop/
+              - listitem [ref=e24]:
+                - link "Blog" [ref=e25] [cursor=pointer]:
+                  - /url: https://practice.sdetunicorns.com/blog/
+              - listitem [ref=e26]:
+                - link "Contact" [ref=e27] [cursor=pointer]:
+                  - /url: https://practice.sdetunicorns.com/contact/
+              - listitem [ref=e28]:
+                - link "My account" [ref=e29] [cursor=pointer]:
+                  - /url: https://practice.sdetunicorns.com/my-account/
+          - generic [ref=e30]:
+            - link [ref=e32] [cursor=pointer]:
+              - /url: "#"
+              - img [ref=e33] [cursor=pointer]
+            - listitem [ref=e36]:
+              - link "9" [ref=e37] [cursor=pointer]:
+                - /url: https://practice.sdetunicorns.com/cart/
+                - img [ref=e38] [cursor=pointer]
+                - generic [ref=e40] [cursor=pointer]: "9"
+          - link "Courses" [ref=e43] [cursor=pointer]:
+            - /url: https://sdetunicorns.com/courses
+    - generic [ref=e46]:
+      - 'heading "Search Results for: watch" [level=1] [ref=e48]':
+        - text: "Search Results for:"
+        - generic [ref=e49]: watch
+      - navigation "Breadcrumbs" [ref=e51]:
+        - list [ref=e52]:
+          - listitem [ref=e53]:
+            - link "Home" [ref=e54] [cursor=pointer]:
+              - /url: https://practice.sdetunicorns.com/
+              - generic [ref=e55] [cursor=pointer]: Home
+            - text: /
+          - listitem [ref=e56]:
+            - generic [ref=e57]: "Search results for: watch"
+    - generic [ref=e60]:
+      - main [ref=e61]:
+        - generic [ref=e62]:
+          - article [ref=e63]:
+            - link [ref=e65] [cursor=pointer]:
+              - /url: https://practice.sdetunicorns.com/product/zurich-watch/
+              - img [ref=e66] [cursor=pointer]
+            - generic [ref=e67]:
+              - heading "Zurich Watch" [level=2] [ref=e69]:
+                - link "Zurich Watch" [ref=e70] [cursor=pointer]:
+                  - /url: https://practice.sdetunicorns.com/product/zurich-watch/
+              - paragraph [ref=e72]: Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of “de Finibus Bonorum et Malorum” (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance.
+              - link "Read More" [ref=e74] [cursor=pointer]:
+                - /url: https://practice.sdetunicorns.com/product/zurich-watch/
+                - text: Read More
+                - img [ref=e75] [cursor=pointer]
+          - article [ref=e77]:
+            - link [ref=e79] [cursor=pointer]:
+              - /url: https://practice.sdetunicorns.com/product/watch/
+              - img [ref=e80] [cursor=pointer]
+            - generic [ref=e81]:
+              - heading "Watch" [level=2] [ref=e83]:
+                - link "Watch" [ref=e84] [cursor=pointer]:
+                  - /url: https://practice.sdetunicorns.com/product/watch/
+              - paragraph [ref=e86]: Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of “de Finibus Bonorum et Malorum” (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance.
+              - link "Read More" [ref=e88] [cursor=pointer]:
+                - /url: https://practice.sdetunicorns.com/product/watch/
+                - text: Read More
+                - img [ref=e89] [cursor=pointer]
+      - complementary [ref=e91]:
+        - search [ref=e94]:
+          - generic [ref=e95]:
+            - img [ref=e97]
+            - generic [ref=e99]: "Search for:"
+            - searchbox "Search for:" [ref=e100]: watch
+        - generic [ref=e101]:
+          - heading "Recent Posts" [level=2] [ref=e102]
+          - list [ref=e103]:
+            - listitem [ref=e104]:
+              - link "IFrame Sample" [ref=e105] [cursor=pointer]:
+                - /url: https://practice.sdetunicorns.com/iframe-sample/
+            - listitem [ref=e106]:
+              - link "Successful Marketing Ads for Your Business" [ref=e107] [cursor=pointer]:
+                - /url: https://practice.sdetunicorns.com/successful-marketing-ads-for-your-business/
+            - listitem [ref=e108]:
+              - link "Let’s Building Your Business from Scratch" [ref=e109] [cursor=pointer]:
+                - /url: https://practice.sdetunicorns.com/lets-building-your-business-from-scratch/
+            - listitem [ref=e110]:
+              - link "The Best Place to Invest Your Money" [ref=e111] [cursor=pointer]:
+                - /url: https://practice.sdetunicorns.com/the-best-place-to-invest-your-money/
+            - listitem [ref=e112]:
+              - link "The Big Seminar for Your Right Investment" [ref=e113] [cursor=pointer]:
+                - /url: https://practice.sdetunicorns.com/the-big-seminar-for-your-right-investment/
+    - contentinfo [ref=e114]:
+      - generic [ref=e117]:
+        - paragraph [ref=e122]: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Elit feugiat sit purus varius. Non in turpis tincidunt nulla. Condimentum ultrices nunc odio ante.
+        - generic [ref=e124]:
+          - heading "Quick Links" [level=2] [ref=e125]
+          - list [ref=e127]:
+            - listitem [ref=e128]:
+              - link "Home" [ref=e129] [cursor=pointer]:
+                - /url: https://practice.sdetunicorns.com/
+            - listitem [ref=e130]:
+              - link "About" [ref=e131] [cursor=pointer]:
+                - /url: https://practice.sdetunicorns.com/about/
+            - listitem [ref=e132]:
+              - link "Blog" [ref=e133] [cursor=pointer]:
+                - /url: https://practice.sdetunicorns.com/blog/
+            - listitem [ref=e134]:
+              - link "Contact" [ref=e135] [cursor=pointer]:
+                - /url: https://practice.sdetunicorns.com/contact/
+            - listitem [ref=e136]:
+              - link "Support Form" [ref=e137] [cursor=pointer]:
+                - /url: https://practice.sdetunicorns.com/support-form/
+        - generic [ref=e139]:
+          - heading "Latest Posts" [level=2] [ref=e140]
+          - list [ref=e141]:
+            - listitem [ref=e142]:
+              - link "IFrame Sample" [ref=e143] [cursor=pointer]:
+                - /url: https://practice.sdetunicorns.com/iframe-sample/
+            - listitem [ref=e144]:
+              - link "Successful Marketing Ads for Your Business" [ref=e145] [cursor=pointer]:
+                - /url: https://practice.sdetunicorns.com/successful-marketing-ads-for-your-business/
+            - listitem [ref=e146]:
+              - link "Let’s Building Your Business from Scratch" [ref=e147] [cursor=pointer]:
+                - /url: https://practice.sdetunicorns.com/lets-building-your-business-from-scratch/
+        - generic [ref=e149]:
+          - heading "Contact Us" [level=2] [ref=e150]
+          - generic [ref=e151]:
+            - paragraph [ref=e152]: "Ph. : +(123) 456-7890"
+            - paragraph [ref=e153]: "Email : first.last@demos.com"
+            - paragraph [ref=e154]: "Loc : Moon Street , 446 Jupiter"
+            - paragraph [ref=e155]: "Open : 9AM – 6PM (Mon – Fri)"
+      - paragraph [ref=e160]:
+        - text: Copyright © 2020
+        - link "SDET Unicorns" [ref=e161] [cursor=pointer]:
+          - /url: https://sdetunicorns.com/
+  - status [ref=e162]
+```

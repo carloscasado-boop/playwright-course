@@ -67,4 +67,82 @@ test.describe('Upload', () => {
     await expect(cartPage.uploadComponent().successTxt).toContainText('uploaded successfully');
 
   });  
+
+
+test('Cart: botón Upload File se habilita tras elegir archivo', async ({ page }) => {
+  const cartPage = new CartPage(page);
+  await page.goto('/cart');
+
+  // inicialmente deshabilitado
+  await expect(cartPage.uploadComponent().submitBtn).toBeDisabled();
+
+  // al seleccionar archivo se habilita (no click)
+  const filePath = fileURLToPath(new URL('../data/test.jpg', import.meta.url));
+  await page.setInputFiles(cartPage.uploadComponent().uploadInput, filePath);
+
+  await expect(cartPage.uploadComponent().submitBtn).toBeEnabled();
+});
+
+test('Cart: Products enlaces válidos byRole', async ({ page, request }) => {
+  await page.goto('/cart');
+
+  const sidebar = page.getByRole('complementary');
+  const productsBox = sidebar.getByRole('heading', { name: /^products$/i }).locator('..');
+  const links = productsBox.locator('li a');
+
+  const count = await links.count();
+  expect(count).toBeGreaterThan(0);
+
+  const hrefs = await links.evaluateAll(as => as.map(a => (a as HTMLAnchorElement).href));
+  for (const href of hrefs) {
+    const res = await request.get(href);
+    expect(res.status(), `Link ${href} debe responder 200`).toBe(200);
+  }
+});
+
+test('Cart: Products enlaces válidos locator', async ({ page, request }) => {
+  await page.goto('/cart');
+
+  // Caja del sidebar que contiene el h2 "Products"
+  const productsBox = page
+    .locator('aside')
+    .filter({ has: page.locator('h2:has-text("Products")') })
+    .first();
+
+  const links = productsBox.locator('li a');
+
+  const count = await links.count();
+  expect(count).toBeGreaterThan(0);
+
+  const hrefs = await links.evaluateAll(els => els.map(a => (a as HTMLAnchorElement).href));
+  for (const href of hrefs) {
+    const res = await request.get(href);
+    expect(res.status(), `Link ${href} debe responder 200`).toBe(200);
+  }
+});
+
+test('Cart: Products categories válidos locator', async ({ page, request }) => {
+  await page.goto('/cart');
+
+  // Caja del sidebar que contiene el h2 "Product categories"
+  const categoriesBox = page
+    .locator('aside')
+    .filter({ has: page.locator('h2:has-text("Product categories")') })
+    .first();
+
+  const links = categoriesBox.locator('li a');
+
+  const count = await links.count();
+  expect(count).toBeGreaterThan(0);
+
+  const hrefs = await links.evaluateAll(els => els.map(a => (a as HTMLAnchorElement).href));
+  for (const href of hrefs) {
+    const res = await request.get(href);
+    expect(res.status(), `Categoría ${href} debe responder 200`).toBe(200);
+  }
+
+  // Navega a la primera categoría y comprueba que la página carga con heading visible
+  await links.first().click();
+  await expect(page.locator('h1, h2').first()).toBeVisible();
+});
 })

@@ -2,10 +2,10 @@
   "cookies": [
     {
       "name": "wp_wpfileupload_bcee46caf8128c4169fb42a56c1b36e7",
-      "value": "ZD71Obw6cOFFadNEyt5Z44fQ93rYZwN3",
+      "value": "yPOBSp52EYMCZXa4TN37t2PYTLSNbLq8",
       "domain": "practice.sdetunicorns.com",
       "path": "/",
-      "expires": 1760772266.521908,
+      "expires": 1761738679.583413,
       "httpOnly": false,
       "secure": true,
       "sameSite": "Lax"
@@ -22,7 +22,7 @@
     },
     {
       "name": "sbjs_current_add",
-      "value": "fd%3D2025-10-16%2007%3A24%3A28%7C%7C%7Cep%3Dhttps%3A%2F%2Fpractice.sdetunicorns.com%2Fmy-account%2F%7C%7C%7Crf%3D%28none%29",
+      "value": "fd%3D2025-10-27%2011%3A51%3A20%7C%7C%7Cep%3Dhttps%3A%2F%2Fpractice.sdetunicorns.com%2Fmy-account%2F%7C%7C%7Crf%3D%28none%29",
       "domain": ".practice.sdetunicorns.com",
       "path": "/",
       "expires": -1,
@@ -32,7 +32,7 @@
     },
     {
       "name": "sbjs_first_add",
-      "value": "fd%3D2025-10-16%2007%3A24%3A28%7C%7C%7Cep%3Dhttps%3A%2F%2Fpractice.sdetunicorns.com%2Fmy-account%2F%7C%7C%7Crf%3D%28none%29",
+      "value": "fd%3D2025-10-27%2011%3A51%3A20%7C%7C%7Cep%3Dhttps%3A%2F%2Fpractice.sdetunicorns.com%2Fmy-account%2F%7C%7C%7Crf%3D%28none%29",
       "domain": ".practice.sdetunicorns.com",
       "path": "/",
       "expires": -1,
@@ -75,7 +75,7 @@
       "value": "pgs%3D1%7C%7C%7Ccpg%3Dhttps%3A%2F%2Fpractice.sdetunicorns.com%2Fmy-account%2F",
       "domain": ".practice.sdetunicorns.com",
       "path": "/",
-      "expires": 1760601268,
+      "expires": 1761567680,
       "httpOnly": false,
       "secure": false,
       "sameSite": "Lax"
@@ -85,7 +85,7 @@
       "value": "%22%22",
       "domain": ".sdetunicorns.com",
       "path": "/",
-      "expires": 1795159468.512007,
+      "expires": 1796125880.938701,
       "httpOnly": false,
       "secure": false,
       "sameSite": "Lax"
@@ -95,7 +95,7 @@
       "value": "%22%22",
       "domain": ".sdetunicorns.com",
       "path": "/",
-      "expires": 1760858668,
+      "expires": 1761825080,
       "httpOnly": false,
       "secure": false,
       "sameSite": "Lax"
@@ -105,7 +105,7 @@
       "value": "%22%22",
       "domain": ".sdetunicorns.com",
       "path": "/",
-      "expires": 1792135468,
+      "expires": 1793101880,
       "httpOnly": false,
       "secure": false,
       "sameSite": "Lax"
