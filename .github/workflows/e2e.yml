@@ -5,6 +5,7 @@ jobs:
   test-e2e:
     name: Run E2E tests
     runs-on: ubuntu-20.04
+    timeout-minutes: 3
 
     steps:
       - uses: actions/checkout@v3
